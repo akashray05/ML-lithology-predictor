@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# CatBoost generated files
+catboost_info/
+
+# Raw/private datasets
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/README.md
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS/system files
+.Trash/
